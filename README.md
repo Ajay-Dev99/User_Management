@@ -15,11 +15,11 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 2. Go To Server folder
 
-  ```bash
+```bash
 cd server
 ```
 3.npm install
-  ```bash
+```bash
 npm install
 ```
 4.create  .env file
@@ -32,18 +32,17 @@ JWT_SECRET_KEY=<your-jwt-secret-key>
 ```
 (If you are using MongoDB Atlas, replace <your-mongodb-url> with your MongoDB Atlas connection string)
 
-5.Configure Nodemailer credentials:
--Replace <your-admin-email> and <your-admin-password> with your email credentials for nodemailer. Note that for Gmail, you may need to generate an App Password if you have two-factor authentication enabled.
+5.Configure Nodemailer credentials
+
+Replace <your-admin-email> and <your-admin-password> with your email credentials for nodemailer. Note that for Gmail, you may need to generate an App Password if you have two-factor authentication enabled.
 
 ## Usage
 
 Once you have completed the installation steps, you can start the server:
-  ```bash
+```bash
 npm start
 ```
 
 
 
 
-
-# matics_technologies-mt
